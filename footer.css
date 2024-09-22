@@ -1,0 +1,35 @@
+footer {
+  background-color: white;
+  text-align: center;
+  color: black;
+  font-family: dosis;
+  font-size: 14px;
+ 
+}
+footer img {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  transition: transform .2s;
+  
+}
+.address-footer {
+  padding-top: 20px;
+}
+.img-socialmedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  cursor: pointer;
+  
+}
+.img-socialmedia1:hover,
+.img-socialmedia2:hover,
+.img-socialmedia3:hover,
+.img-socialmedia4:hover {
+  transform: scale(1.5);
+}

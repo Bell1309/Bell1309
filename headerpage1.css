@@ -1,0 +1,50 @@
+header {
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 1000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: whitesmoke;
+  
+}
+.left-section {
+  width: 150px;
+  
+}
+
+.logo-res {
+  width: 100px;
+  height: 70px;
+  margin-left: 50px;
+}
+
+.right-section {
+  
+  width: 500px;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: dosis;
+  font-size: 16px;
+  cursor: pointer;
+
+}
+
+
+.right-section button {
+  font-family: dosis;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  background-color: rgb(108, 74, 53);
+  border-style: solid;
+  border-color: white;
+  font-size: 16px;
+}
